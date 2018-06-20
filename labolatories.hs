@@ -1,7 +1,7 @@
 {-# LANGUAGE FlexibleInstances #-}
 import Data.Char
 import Data.List 
-
+import Data.List 
 -- LAB 1..........
 myHead [] = []
 myHead (head:tail) = head 
@@ -53,7 +53,7 @@ atLeast :: [Int] -> Int -> [Int]
 atLeast list min = nub $ filter (\b-> count b list >= min) list
 
 -- LAB 3..........
-import Data.List 
+
 
 sum2c :: Int -> Int -> Int
 sum2c m n = m + n
